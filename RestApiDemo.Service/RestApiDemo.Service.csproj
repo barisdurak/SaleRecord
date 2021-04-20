@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RestApiDemo.Model\RestApiDemo.Model.csproj" />
+    <ProjectReference Include="..\RestApiDemo.Repository\RestApiDemo.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

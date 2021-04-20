@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "WNkiMxXY0vFf5IoZuBgWXSuO0/TqdIARmG/TuTz/XJBqbAFRyRa/cHcN3aIA3batnWUrYfFZZquJz4zJJKpcAw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\bdurak\\source\\repos\\RestApiDemo\\RestApiDemo.Model\\RestApiDemo.Model.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bdurak\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
+    "C:\\Users\\bdurak\\.nuget\\packages\\dapper.contrib\\2.0.78\\dapper.contrib.2.0.78.nupkg.sha512"
+  ],
+  "logs": []
+}

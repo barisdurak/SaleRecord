@@ -1,0 +1,17 @@
+C:\Users\bdurak\source\repos\RestApiDemo\RestApiDemo.Service\bin\Debug\net5.0\RestApiDemo.Service.deps.json
+C:\Users\bdurak\source\repos\RestApiDemo\RestApiDemo.Service\bin\Debug\net5.0\RestApiDemo.Service.dll
+C:\Users\bdurak\source\repos\RestApiDemo\RestApiDemo.Service\bin\Debug\net5.0\ref\RestApiDemo.Service.dll
+C:\Users\bdurak\source\repos\RestApiDemo\RestApiDemo.Service\bin\Debug\net5.0\RestApiDemo.Service.pdb
+C:\Users\bdurak\source\repos\RestApiDemo\RestApiDemo.Service\bin\Debug\net5.0\RestApiDemo.Model.dll
+C:\Users\bdurak\source\repos\RestApiDemo\RestApiDemo.Service\bin\Debug\net5.0\RestApiDemo.Repository.dll
+C:\Users\bdurak\source\repos\RestApiDemo\RestApiDemo.Service\bin\Debug\net5.0\RestApiDemo.Model.pdb
+C:\Users\bdurak\source\repos\RestApiDemo\RestApiDemo.Service\bin\Debug\net5.0\RestApiDemo.Repository.pdb
+C:\Users\bdurak\source\repos\RestApiDemo\RestApiDemo.Service\obj\Debug\net5.0\RestApiDemo.Service.csprojAssemblyReference.cache
+C:\Users\bdurak\source\repos\RestApiDemo\RestApiDemo.Service\obj\Debug\net5.0\RestApiDemo.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bdurak\source\repos\RestApiDemo\RestApiDemo.Service\obj\Debug\net5.0\RestApiDemo.Service.AssemblyInfoInputs.cache
+C:\Users\bdurak\source\repos\RestApiDemo\RestApiDemo.Service\obj\Debug\net5.0\RestApiDemo.Service.AssemblyInfo.cs
+C:\Users\bdurak\source\repos\RestApiDemo\RestApiDemo.Service\obj\Debug\net5.0\RestApiDemo.Service.csproj.CoreCompileInputs.cache
+C:\Users\bdurak\source\repos\RestApiDemo\RestApiDemo.Service\obj\Debug\net5.0\RestApiDemo.Service.csproj.CopyComplete
+C:\Users\bdurak\source\repos\RestApiDemo\RestApiDemo.Service\obj\Debug\net5.0\RestApiDemo.Service.dll
+C:\Users\bdurak\source\repos\RestApiDemo\RestApiDemo.Service\obj\Debug\net5.0\ref\RestApiDemo.Service.dll
+C:\Users\bdurak\source\repos\RestApiDemo\RestApiDemo.Service\obj\Debug\net5.0\RestApiDemo.Service.pdb

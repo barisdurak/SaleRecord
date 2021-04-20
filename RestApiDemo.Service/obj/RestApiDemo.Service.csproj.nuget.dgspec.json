@@ -1,0 +1,205 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\bdurak\\source\\repos\\RestApiDemo\\RestApiDemo.Service\\RestApiDemo.Service.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\bdurak\\source\\repos\\RestApiDemo\\RestApiDemo.Model\\RestApiDemo.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bdurak\\source\\repos\\RestApiDemo\\RestApiDemo.Model\\RestApiDemo.Model.csproj",
+        "projectName": "RestApiDemo.Model",
+        "projectPath": "C:\\Users\\bdurak\\source\\repos\\RestApiDemo\\RestApiDemo.Model\\RestApiDemo.Model.csproj",
+        "packagesPath": "C:\\Users\\bdurak\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bdurak\\source\\repos\\RestApiDemo\\RestApiDemo.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bdurak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Dapper.Contrib": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\bdurak\\source\\repos\\RestApiDemo\\RestApiDemo.Repository\\RestApiDemo.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bdurak\\source\\repos\\RestApiDemo\\RestApiDemo.Repository\\RestApiDemo.Repository.csproj",
+        "projectName": "RestApiDemo.Repository",
+        "projectPath": "C:\\Users\\bdurak\\source\\repos\\RestApiDemo\\RestApiDemo.Repository\\RestApiDemo.Repository.csproj",
+        "packagesPath": "C:\\Users\\bdurak\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bdurak\\source\\repos\\RestApiDemo\\RestApiDemo.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bdurak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\bdurak\\source\\repos\\RestApiDemo\\RestApiDemo.Model\\RestApiDemo.Model.csproj": {
+                "projectPath": "C:\\Users\\bdurak\\source\\repos\\RestApiDemo\\RestApiDemo.Model\\RestApiDemo.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Dapper.Contrib": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.23, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\bdurak\\source\\repos\\RestApiDemo\\RestApiDemo.Service\\RestApiDemo.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bdurak\\source\\repos\\RestApiDemo\\RestApiDemo.Service\\RestApiDemo.Service.csproj",
+        "projectName": "RestApiDemo.Service",
+        "projectPath": "C:\\Users\\bdurak\\source\\repos\\RestApiDemo\\RestApiDemo.Service\\RestApiDemo.Service.csproj",
+        "packagesPath": "C:\\Users\\bdurak\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bdurak\\source\\repos\\RestApiDemo\\RestApiDemo.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bdurak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\bdurak\\source\\repos\\RestApiDemo\\RestApiDemo.Model\\RestApiDemo.Model.csproj": {
+                "projectPath": "C:\\Users\\bdurak\\source\\repos\\RestApiDemo\\RestApiDemo.Model\\RestApiDemo.Model.csproj"
+              },
+              "C:\\Users\\bdurak\\source\\repos\\RestApiDemo\\RestApiDemo.Repository\\RestApiDemo.Repository.csproj": {
+                "projectPath": "C:\\Users\\bdurak\\source\\repos\\RestApiDemo\\RestApiDemo.Repository\\RestApiDemo.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
