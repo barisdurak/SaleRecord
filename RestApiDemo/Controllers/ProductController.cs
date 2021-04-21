@@ -10,32 +10,37 @@ namespace RestApiDemo.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class SaleController : ControllerBase
+    public class ProductController : ControllerBase
     {
-        private readonly ISaleService _saleService;
 
-        public SaleController(ISaleService saleService)
+        private readonly IProductService _productService;
+
+        public ProductController(IProductService productService)
         {
-            _saleService = saleService;
 
+            _productService = productService;
         }
 
         [HttpGet]
 
-        public async Task <IActionResult> Get(){
+        public async Task<IActionResult> Get() {
             try
             {
-                var res = await _saleService.GetAsync();
+                var res = await _productService.GetAsync();
                 return Ok(res);
 
             }
             catch (Exception e)
             {
+
                 Console.WriteLine(e);
 
                 throw;
             }
+
         }
+
+
 
     }
 }

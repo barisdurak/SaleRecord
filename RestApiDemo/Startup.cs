@@ -36,6 +36,10 @@ namespace RestApiDemo
             });
             services.AddTransient<ISaleService, SaleService>();
             services.AddTransient<ISaleRepository, SaleRepository>();
+            services.AddTransient<IProductService, ProductService>();
+            services.AddTransient<IProductRepository, ProductRepository>();
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
