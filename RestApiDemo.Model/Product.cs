@@ -12,9 +12,9 @@ namespace RestApiDemo.Model
     public class Product
     {
         [Key]
-        public int ProductId { get; set; }
+        public int Id { get; set; }
 
-        public int ProductCode { get; set; }
+        public int PCode { get; set; }
 
     }
 }
