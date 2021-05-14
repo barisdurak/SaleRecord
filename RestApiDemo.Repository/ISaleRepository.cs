@@ -7,5 +7,6 @@ namespace RestApiDemo.Repository
     public interface ISaleRepository
     {
         Task<IEnumerable<Sale>> GetAsync();
+        
     }
 }

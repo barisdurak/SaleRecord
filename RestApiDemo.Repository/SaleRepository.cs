@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Dapper;
 
 namespace RestApiDemo.Repository
 {
@@ -26,7 +27,7 @@ namespace RestApiDemo.Repository
                 {
                     var res = await connection.GetAllAsync<Sale>();
                     return res;
-                    
+             
 
                 }
 
@@ -37,5 +38,7 @@ namespace RestApiDemo.Repository
                 throw;
             }
         }
+
+        
     }
 }

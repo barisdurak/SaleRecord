@@ -20,5 +20,7 @@ namespace RestApiDemo.Service
         {
             return await _saleRepository.GetAsync();
         }
+
+        
     }
 }

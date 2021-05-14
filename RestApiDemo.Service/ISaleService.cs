@@ -10,5 +10,6 @@ namespace RestApiDemo.Service
     public interface ISaleService
     {
         Task<IEnumerable<Sale>> GetAsync();
+        
     }
 }
