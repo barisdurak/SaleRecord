@@ -21,8 +21,8 @@ namespace RestApiDemo.Model
         public int Quantity { get; set; }
 
         public int Price { get; set; }
-        
-        public string RecordDate { get; set; }
+        [Write(false)]
+        public DateTime RecordDate { get; set; }
 
     }
 }

@@ -38,6 +38,25 @@ namespace RestApiDemo.Controllers
             }
         }
 
+        [HttpPost]
+
+        public async Task <IActionResult> PostSale(Sale sale)
+        {
+            try
+            {
+                var res = await _saleService.PostSaleAsync(sale);
+                return Ok(res);
+
+            }
+            catch (Exception e)
+            {
+
+                Console.WriteLine(e);
+                throw;
+            }
+
+        }
+
         
 
        

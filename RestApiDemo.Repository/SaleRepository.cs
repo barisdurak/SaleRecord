@@ -19,6 +19,8 @@ namespace RestApiDemo.Repository
             _configuration = configuration;
         }
 
+       
+
         public async Task<IEnumerable<Sale>> GetAsync()
         {
             try
@@ -37,6 +39,28 @@ namespace RestApiDemo.Repository
                 Console.WriteLine(e);
                 throw;
             }
+        }
+
+        public async Task<int> PostSaleAsync(Sale sale)
+        {
+            try
+            {
+                using (var connection = DataLayer.GetConnection(_configuration))
+                {
+                    var res = await connection.InsertAsync(sale);
+                    return res;
+                    
+                    
+
+                }
+
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
         }
 
         

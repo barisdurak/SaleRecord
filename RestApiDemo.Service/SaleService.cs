@@ -21,6 +21,11 @@ namespace RestApiDemo.Service
             return await _saleRepository.GetAsync();
         }
 
+        public async Task<int> PostSaleAsync(Sale sale)
+        {
+            return await _saleRepository.PostSaleAsync(sale);
+        }
+
         
     }
 }
