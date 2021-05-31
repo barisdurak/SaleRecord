@@ -38,6 +38,8 @@ namespace RestApiDemo
             services.AddTransient<ISaleRepository, SaleRepository>();
             services.AddTransient<IProductService, ProductService>();
             services.AddTransient<IProductRepository, ProductRepository>();
+            services.AddTransient<IStoreService, StoreService>();
+            services.AddTransient<IStoreRepository, StoreRepository>();
 
 
         }
