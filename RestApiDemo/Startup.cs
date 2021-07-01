@@ -12,6 +12,7 @@ using RestApiDemo.Service;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace RestApiDemo
@@ -29,10 +30,13 @@ namespace RestApiDemo
         public void ConfigureServices(IServiceCollection services)
         {
 
-            services.AddControllers();
+            services.AddControllers().AddJsonOptions(options =>
+            {
+                options.JsonSerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.CamelCase;
+            });
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "RestApiDemo", Version = "v1" });
+                c.SwaggerDoc("RestApiDemo", new OpenApiInfo { Title = "RestApiDemo", Version = "v1" });
             });
             services.AddTransient<ISaleService, SaleService>();
             services.AddTransient<ISaleRepository, SaleRepository>();
@@ -51,10 +55,11 @@ namespace RestApiDemo
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "RestApiDemo v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("RestApiDemo/swagger.json", "RestApiDemo v1 "));
+                
             }
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
 
             app.UseRouting();
 

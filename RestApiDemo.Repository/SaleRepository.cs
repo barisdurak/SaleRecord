@@ -20,14 +20,14 @@ namespace RestApiDemo.Repository
         }
 
        
-
         public async Task<IEnumerable<Sale>> GetAsync()
         {
             try
             {
                 using (var connection = DataLayer.GetConnection(_configuration))
                 {
-                    var res = await connection.GetAllAsync<Sale>();
+                    var sql = "select * from v_sale";
+                    var res = await connection.QueryAsync<Sale>(sql);
                     return res;
              
 
@@ -40,7 +40,6 @@ namespace RestApiDemo.Repository
                 throw;
             }
         }
-
         public async Task<int> PostSaleAsync(Sale sale)
         {
             try
